@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Table</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('img3.webp') no-repeat ;
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h2 {
+            width:100%;
+            height: 50px;
+            margin:30px 0;
+           
+            border: 2px solid rgba(255,255,255,.2);
+            backdrop-filter: blur(20px);
+            box-shadow: 0 0 10px rgba(248, 245, 245, 0.968);
+            color:#fff;
+            border-radius: 10px;
+            padding: 20px 45px 20px 20px;
+            font-size:36px;
+            text-align:center;
+            position: relative;
+
+            
+        }
+
+        table {
+            width: 80%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgb(57, 100, 57);
+            background: transparent;
+            backdrop-filter: blur(20px);
+            border-radius: 10px;
+           
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #437039;
+        }
+
+        th {
+            background: transparent;
+            color: #11376d;
+            font-weight: bold;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        .highlight {
+            background: transparent;
+            font-weight: bold;
+            color: #000000;
+        }
+
+        .success {
+            background: transparent;
+            color: #000000;
+        }
+
+        .error {
+            background: transparent;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Table</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Password</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="error">
+                <td>Aarav Sharma </td>
+                <td>Aarav45@gmail.com</td>
+                <td class="highlight">acytkmnsd</td>
+            </tr>
+            <tr class="success">
+                <td>Diya Patel</td>
+                <td>Diyas0@gamil.com</td>
+                <td class="highlight">Completed</td>
+            </tr>
+            <tr class="error">
+                <td>Kavya Singh</td>
+                <td>Kavy22@gamil.com</td>
+                <td class="highlight">Error</td>
+            </tr>
+            <tr class="error">
+                <td>Priya Reddy</td>
+                <td>Priya28@gmail.com</td>
+                <td class="highlight">Vikrahe</td>
+            </tr>
+            <tr class="error">
+                <td>Naina Mehra</td>
+                <td>NaMehra@gmail.com</td>
+                <td class="highlight">Acthan</td>
+            </tr>
+            <tr class="error">
+                <td>Aditya Joshi</td>
+                <td>Adi28@gmail.com</td>
+                <td class="highlight">mes_ofhe</td>
+            </tr>
+            <tr class="error">
+                <td>Rohan Desai</td>
+                <td>Rohan_Desai@gmail.com</td>
+                <td class="highlight">mes_ofhe</td>
+            </tr>
+            <tr class="error">
+                <td>Kabir Malhotra</td>
+                <td>Kabir678@gmail.com</td>
+                <td class="highlight">mes_ofhe</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
