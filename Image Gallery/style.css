@@ -1,0 +1,27 @@
+*{
+    margin:auto;
+    padding: 0%;
+}
+body{
+     font-family: sans-sarif; 
+}
+h1{
+    padding: 0px;
+    text-align: center;
+    margin: 30px 50px;
+    color: rgb(120, 46, 120);
+}
+.gallery{
+    margin: -66px 55px;
+   
+}
+.gallery img{
+    padding: 4px;
+    width: 180px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.gallery img:hover{
+    filter: grayscale(0%);
+transform: scale(1.1);
+}
