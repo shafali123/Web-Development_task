@@ -1,0 +1,65 @@
+.navbar{
+    background-color: rgb(69, 69, 69); 
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list{
+width: 50%;
+display: flex;
+align-items: center;
+padding: 23px;
+margin: 2px;
+}
+.nav-list li a{
+text-decoration: none;
+color: white;
+font-family: 'Ubuntu', sans-serif;
+font-size: 20px;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-list li{
+    List-style: none;
+    padding: 1px 30px;
+}
+.contact{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 30px;
+    background-color: #f2f6f5;
+    height: 50vh;
+   }
+   .form{
+    max-width: 390px;
+    margin: auto;
+   }
+   .form input{
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    margin: 18px 0;
+    padding: 5px 10px;
+   }
+   .project{
+margin: auto;
+padding: 2%;
+   }
+   .Tech{
+    margin: auto;
+    padding: 2%;
+   }
+   .edu{
+    margin: auto;
+    padding: 2%;
+   }
+   .Project {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-info-rgb),var(--bs-bg-opacity))!important;
+}
+   
